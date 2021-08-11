@@ -1,15 +1,14 @@
 body {
   margin: 0;
-  font-size: 16px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 1rem;
+  font-family: "M PLUS Rounded 1c", Verdana, Geneva, Tahoma, sans-serif;
   color: #333;
 }
 
 header {
-  background: #f59a00;
+  background: #fcd545;
   color: #fff;
   text-align: center;
-  padding-top: 64px;
 }
 
 header h1,
@@ -18,8 +17,13 @@ header p {
 }
 
 header img {
-  width: 280px;
+  width: 320px;
   vertical-align: bottom;
+}
+
+.comment {
+  margin-left: 40px;
+  margin-right: 40px;
 }
 
 .btn {
@@ -36,17 +40,18 @@ header img {
 }
 
 .btn:hover {
-  opacity: .9;
+  opacity: 0.9;
 }
 
 .features img {
   width: 100%;
+  border-radius: 20px;
+  border: 3px solid #fcd545;
 }
 
 .features > h1 {
   text-align: center;
-  padding: 64px;
-  font-weight: normal;
+  padding: 30px;
 }
 
 .features .container {
@@ -67,7 +72,7 @@ header img {
 
 .members > h1 {
   text-align: center;
-  padding: 64px;
+  padding: 34px;
   font-weight: normal;
 }
 
@@ -92,10 +97,10 @@ header img {
 }
 
 .call-to-action {
-  background: #f59a00;
+  background: #fcd545;
   color: #fff;
   text-align: center;
-  padding: 64px 0;
+  padding: 40px 0;
 }
 
 .call-to-action h1 {
@@ -107,7 +112,7 @@ header img {
 }
 
 footer {
-  padding: 64px 0;
+  padding: 25px 0;
   background: #323135;
   color: #98969c;
   text-align: center;
@@ -120,13 +125,23 @@ footer {
     margin: 0 auto;
   }
 
+  header img {
+    width: 700px;
+  }
+
   header .info {
-    width: 60%;
+    width: 50%;
     align-self: center;
   }
 
   header .pic {
-    width: 40%;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .features > h1 {
+    padding: 64px;
   }
 
   .features .container {
